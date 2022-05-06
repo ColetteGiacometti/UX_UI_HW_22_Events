@@ -21,9 +21,14 @@ font-size: 100%;
 
 }
 .nav-link {
-color: black !important;
+color: white !important;
 font-family: 'Lato', sans-serif;
 }
+
+.nav-link:hover {
+  color: black !important;
+  font-family: 'Lato', sans-serif;
+  }
 
 nav ul li:hover { 
   background: #F7D26D; 
@@ -41,6 +46,8 @@ color: white;
 font-family: 'Josefin Slab', serif;
 font-size: 400%;
 padding-left: 10%;
+padding-top: 3%;
+padding-bottom: 3%;
 }
 
 h4 {
@@ -52,25 +59,82 @@ margin-bottom: 5%;
 padding-left: 10%;
 }
 
+h5 {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+
+  }
+
 .heroImg {
-  background-image: url("lakeview.png");
+  background-image: url("heroevent.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px; 
+  height: 400px; 
   text-align: center;
 }
 
-.container {
-  padding-bottom: 5%;
+.card {
+  margin-top: 5%;
 }
 .card-text {
   font-family: 'Lato', sans-serif;
+  color: white;
+
 }
 
-.card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
+.cardEvent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cardEvent:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.row {
+  align-items:center;
+}
+.btn {
+  float: right;
+  font-family: 'Lato', sans-serif;
+  margin-right: 15%;
+  background-color: #B3AEAD;
+  border: #B3AEAD;
+  color:black;
+}
+
+.btn:hover {
+  background-color: #e7e7e7;
+  border: #e7e7e7;
+  color:black;
+}
+
+.btnStarted {
+  font-family: 'Lato', sans-serif;
+  background-color: #B3AEAD;
+  border: #B3AEAD;
+  color:black;
+  padding:1%;
+  border-radius: 4%;
+}
+
+.btnStarted:hover {
+  font-family: 'Lato', sans-serif;
+  background-color: #e7e7e7;
+  border: #e7e7e7;
+  color:black;
+  padding:1%;
+  border-radius: 4%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 a {
   text-decoration: none;
@@ -91,12 +155,6 @@ color:black;
   font-size: 100%;
   font-weight: normal;
   color:black;
-  margin: 0 auto;
-  justify-content: center;
-}
-
-
-.middleRow {
   margin: 0 auto;
   justify-content: center;
 }
