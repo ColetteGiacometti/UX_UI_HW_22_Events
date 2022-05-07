@@ -97,23 +97,10 @@ h5 {
 .row {
   align-items:center;
 }
-.btn {
+.button {
   float: right;
   font-family: 'Lato', sans-serif;
   margin-right: 15%;
-  background-color: #B3AEAD;
-  border: #B3AEAD;
-  color:black;
-}
-
-.btn:hover {
-  background-color: #e7e7e7;
-  border: #e7e7e7;
-  color:black;
-}
-
-.btnStarted {
-  font-family: 'Lato', sans-serif;
   background-color: #B3AEAD;
   border: #B3AEAD;
   color:black;
@@ -121,7 +108,30 @@ h5 {
   border-radius: 4%;
 }
 
-.btnStarted:hover {
+.button:hover {
+  background-color: #e7e7e7;
+  border: #e7e7e7;
+  color:black;
+}
+
+.button:active {
+  background-color: #e7e7e7;
+  border: #000000;
+  color:#0B0E13;
+}
+
+
+.buttonStarted {
+  font-family: 'Lato', sans-serif;
+  background-color: #B3AEAD;
+  border: #B3AEAD;
+  color:black;
+  padding:1%;
+  border-radius: 4%;
+  margin: 0 auto;
+}
+
+.buttonStarted:hover {
   font-family: 'Lato', sans-serif;
   background-color: #e7e7e7;
   border: #e7e7e7;
